@@ -1,4 +1,4 @@
-import {VoykaData} from "./voyka_data";
+import {VoykaModel} from "./voyka_model";
 
 class Voyka {
   //...
@@ -9,7 +9,7 @@ class Voyka {
     this.key = key
   }
 
-  async load(VRM: string): Promise<VoykaData> {
+  async load(VRM: string): Promise<VoykaModel> {
     //...
     const key = this.key
     const req = "VehicleData"
@@ -20,12 +20,12 @@ class Voyka {
     //...
     return fetch(host + req + auth + queries, opt)
       .then(response => response.json() as object)
-      .then(value => new VoykaData(value['Response']));
+      .then(value => value['Response']);
   }
 }
 
 //...Run
 new Voyka('44c65e9e-63b5-45dc-bd33-1b3d0a128e31')
-  .load('KM14AKK').then(value => console.log(value.toJson()))
+  .load('KM14AKK').then(value => console.log(value))
 
 

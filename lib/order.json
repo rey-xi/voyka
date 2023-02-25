@@ -22,59 +22,59 @@
           "Make": {
             "Name": "ClassificationDetails.Dvla.Make",
             "Type": "String",
-            "Description": "Vehicle make as defined by DVLA."
+            "Description": ""
           },
           "Model": {
             "Name": "ClassificationDetails.Dvla.Model",
             "Type": "String",
-            "Description": "Vehicle model as defined by DVLA."
+            "Description": ""
           }
         },
         "Smmt": {
           "Make": {
             "Name": "ClassificationDetails.Smmt.Make",
             "Type": "String",
-            "Description": "Vehicle make as defined by SMMT."
+            "Description": ""
           },
           "Mvris": {
             "MakeCode": {
               "Name": "ClassificationDetails.Smmt.Mvris.MakeCode",
               "Type": "String",
-              "Description": "MVRIS make code."
+              "Description": ""
             },
             "ModelCode": {
               "Name": "ClassificationDetails.Smmt.Mvris.ModelCode",
               "Type": "String",
-              "Description": "MVRIS model code."
+              "Description": ""
             }
           },
           "Range": {
             "Name": "ClassificationDetails.Smmt.Range",
             "Type": "String",
-            "Description": "Vehicle range as defined by SMMT."
+            "Description": ""
           },
           "Trim": {
             "Name": "ClassificationDetails.Smmt.Trim",
             "Type": "String",
-            "Description": "Vehicle trim as defined by SMMT."
+            "Description": ""
           }
         },
         "Ukvd": {
           "IsElectricVehicle": {
             "Name": "ClassificationDetails.Ukvd.IsElectricVehicle",
             "Type": "Boolean",
-            "Description": "Indicates whether this is an electric vehicle."
+            "Description": ""
           },
           "VrmFormat": {
             "IsGbGeneralFormat": {
               "Name": "ClassificationDetails.Ukvd.VrmFormat.IsGbGeneralFormat",
               "Type": "Boolean",
-              "Description": "Set to true if the VRM format matches one of the formats used for general registrations in Great Britain."
+              "Description": ""
             },
             "IsNiGeneralFormat": {
               "Name": "ClassificationDetails.Ukvd.VrmFormat.IsNiGeneralFormat",
               "Type": "Boolean",
-              "Description": "Set to true if the VRM format matches one of the formats used for general registrations in Northern Ireland."
+              "Description": ""
             }
           }
         }
@@ -83,107 +83,107 @@
         "BodyStyle": {
           "Name": "SmmtDetails.BodyStyle",
           "Type": "String",
-          "Description": "The style of the vehicle's body.  E.g. 'Estate', 'MPV', 'Saloon', etc."
+          "Description": ""
         },
         "CabType": {
           "Name": "SmmtDetails.CabType",
           "Type": "String",
-          "Description": "Refers to HGVs only. Describes if any cabin is available to sleep in."
+          "Description": ""
         },
         "CountryOfOrigin": {
           "Name": "SmmtDetails.CountryOfOrigin",
           "Type": "String",
-          "Description": "The country the vehicle originated from."
+          "Description": ""
         },
         "DataVersionNumber": {
           "Name": "SmmtDetails.DataVersionNumber",
           "Type": "Decimal",
-          "Description": "SMMT data version number."
+          "Description": ""
         },
         "DriveType": {
           "Name": "SmmtDetails.DriveType",
           "Type": "String",
-          "Description": " Identifies the number of wheels the vehicle has and how many of them are driving the vehicle.  E.g. '4x2' or '4x4'."
+          "Description": " "
         },
         "EngineCapacity": {
           "Name": "SmmtDetails.EngineCapacity",
           "Type": "String",
-          "Description": "The exact engine cubic capacity in cubic centimetres e.g. '1998' (whereas NominalEngineCapacity cc may be given as '2.0L')."
+          "Description": ""
         },
         "FuelType": {
           "Name": "SmmtDetails.FuelType",
           "Type": "String",
-          "Description": "Type of fuel or power source used. E.g. 'Petrol'."
+          "Description": ""
         },
         "MarketSectorCode": {
           "Name": "SmmtDetails.MarketSectorCode",
           "Type": "String",
-          "Description": "SMMT 2 digit market sector of the model variant: E.g. 'AA' = 'CAR (EXC. OFF ROAD)' & 'DC' = 'LCVs ALL 2601 - 3500 KGS'."
+          "Description": ""
         },
         "Marque": {
           "Name": "SmmtDetails.Marque",
           "Type": "String",
-          "Description": "The 'badge' on the vehicle.  E.g. 'Ford', 'Vauxhall', etc."
+          "Description": ""
         },
         "MarqueCode": {
           "Name": "SmmtDetails.MarqueCode",
           "Type": "String",
-          "Description": "Two digit code that identifies the marque of the vehicle."
+          "Description": ""
         },
         "ModelCode": {
           "Name": "SmmtDetails.ModelCode",
           "Type": "String",
-          "Description": "2 or 3 digit code that identifies the model of the vehicle."
+          "Description": ""
         },
         "ModelVariant": {
           "Name": "SmmtDetails.ModelVariant",
           "Type": "String",
-          "Description": "Vehicle model and trim as detailed by the manufacturer."
+          "Description": ""
         },
         "NominalEngineCapacity": {
           "Name": "SmmtDetails.NominalEngineCapacity",
           "Type": "Decimal",
-          "Description": "The approximate engine  capacity in cubic centimetres e.g. 2.0L (whereas EngineCapacity is the exact engine capacity."
+          "Description": ""
         },
         "NumberOfDoors": {
           "Name": "SmmtDetails.NumberOfDoors",
           "Type": "Int32",
-          "Description": "The number of doors on a passenger car."
+          "Description": ""
         },
         "NumberOfGears": {
           "Name": "SmmtDetails.NumberOfGears",
           "Type": "Int32",
-          "Description": "The number of gears (forward driving gear ratios) in the vehicle transmission.  E.g. '6'."
+          "Description": ""
         },
         "Range": {
           "Name": "SmmtDetails.Range",
           "Type": "String",
-          "Description": "The collective name for a family of model variants.  E.g. 'MONDEO', 'FOCUS', 'ASTRA'."
+          "Description": ""
         },
         "Series": {
           "Name": "SmmtDetails.Series",
           "Type": "String",
-          "Description": "The factory code or the manufacturer's internal code which distinguishes the evolution of the model from the previous version. Series enables a vehicle within a model range to be distinguished from other models in the same model range. The differences do not qualify the vehicle to be described as a new Range because the modifications only amount to a 'face lift'."
+          "Description": ""
         },
         "SysSetupDate": {
           "Name": "SmmtDetails.SysSetupDate",
           "Type": "String",
-          "Description": "Identifies the model variant system setup date of the vehicle."
+          "Description": ""
         },
         "TerminateDate": {
           "Name": "SmmtDetails.TerminateDate",
           "Type": "String",
-          "Description": "Identifies the model variant termination date of the vehicle."
+          "Description": ""
         },
         "Transmission": {
           "Name": "SmmtDetails.Transmission",
           "Type": "String",
-          "Description": "A description of the Transmission Type.  E.g. 'Automatic', 'CVT', 'Manual'."
+          "Description": ""
         },
         "VisibilityDate": {
           "Name": "SmmtDetails.VisibilityDate",
           "Type": "String",
-          "Description": "Identifies the model variant visibility date of the vehicle."
+          "Description": ""
         }
       },
       "TechnicalDetails": {
@@ -192,36 +192,36 @@
             "Lkm": {
               "Name": "TechnicalDetails.Consumption.Combined.Lkm",
               "Type": "Decimal",
-              "Description": "Fuel efficiency in litres per 100km for the 'combined' engine cycle as stipulated in Directive 1999/100/EC. The combined figure presented is for the urban and the extra-urban cycle together. It is therefore an average of the two other parts of the fuel consumption test, Urban and Extra-urban cycles, weighted by the distance covered in each part."
+              "Description": ""
             },
             "Mpg": {
               "Name": "TechnicalDetails.Consumption.Combined.Mpg",
               "Type": "Decimal",
-              "Description": "Fuel efficiency in miles per gallon for the 'combined' engine cycle as stipulated in Directive 1999/100/EC. The combined figure presented is for the urban and the extra-urban cycle together. It is therefore an average of the two other parts of the fuel consumption test, Urban and Extra-urban cycles, weighted by the distance covered in each part."
+              "Description": ""
             }
           },
           "ExtraUrban": {
             "Lkm": {
               "Name": "TechnicalDetails.Consumption.ExtraUrban.Lkm",
               "Type": "Decimal",
-              "Description": "Fuel efficiency in litres per 100km for the 'extra urban' engine cycle as stipulated in Directive 1999/100/EC. The extra-urban cycle is conducted immediately following the urban cycle and consists roughly half steady-speed driving and the remainder accelerations, decelerations and some idling. Maximum speed is 75mph (120 km/h), average speed is 39mph (63 km/h) and the distance covered is 4.3 miles (7 km)."
+              "Description": ""
             },
             "Mpg": {
               "Name": "TechnicalDetails.Consumption.ExtraUrban.Mpg",
               "Type": "Decimal",
-              "Description": "Fuel efficiency in miles per gallon for the 'extra urban' engine cycle as stipulated in Directive 1999/100/EC. The extra-urban cycle is conducted immediately following the urban cycle and consists roughly half steady-speed driving and the remainder accelerations, decelerations and some idling. Maximum speed is 75mph (120 km/h), average speed is 39mph (63 km/h) and the distance covered is 4.3 miles (7 km)."
+              "Description": ""
             }
           },
           "UrbanCold": {
             "Lkm": {
               "Name": "TechnicalDetails.Consumption.UrbanCold.Lkm",
               "Type": "Decimal",
-              "Description": "Fuel efficiency in litres per 100km for the 'urban cold' engine cycle as stipulated in Directive 1999/100/EC. The urban test cycle is carried out in a laboratory at an ambient temperature of 20 degrees Celsius to 30 degrees Celsius on a rolling road from a cold start, i.e. the engine has not run for several hours. The cycle consists of a series of accelerations, steady speeds, decelerations and idling. Maximum speed is 31mph (50 km/h), average speed 12 mph (19 km/h) and the distance covered is 2.5 miles (4 km)."
+              "Description": ""
             },
             "Mpg": {
               "Name": "TechnicalDetails.Consumption.UrbanCold.Mpg",
               "Type": "Decimal",
-              "Description": "Fuel efficiency in miles per gallon for the 'urban cold' engine cycle as stipulated in Directive 1999/100/EC. The urban test cycle is carried out in a laboratory at an ambient temperature of 20 degrees Celsius to 30 degrees Celsius on a rolling road from a cold start, i.e. the engine has not run for several hours. The cycle consists of a series of accelerations, steady speeds, decelerations and idling. Maximum speed is 31mph (50 km/h), average speed 12 mph (19 km/h) and the distance covered is 2.5 miles (4 km)."
+              "Description": ""
             }
           }
         },
@@ -229,233 +229,233 @@
           "BodyShape": {
             "Name": "TechnicalDetails.Dimensions.BodyShape",
             "Type": "String",
-            "Description": "Additional Variant Description field for commercial vehicles to allow relative roof heights and body shape versions of same variant."
+            "Description": ""
           },
           "CarLength": {
             "Name": "TechnicalDetails.Dimensions.CarLength",
             "Type": "Decimal",
-            "Description": "The distance in millimetres between a vertical line at the front bumper of the vehicle to a similar line at the most extreme point at the rear of the vehicle."
+            "Description": ""
           },
           "DataVersionNumber": {
             "Name": "TechnicalDetails.Dimensions.DataVersionNumber",
             "Type": "Decimal",
-            "Description": "Version number for this data."
+            "Description": ""
           },
           "FuelTankCapacity": {
             "Name": "TechnicalDetails.Dimensions.FuelTankCapacity",
             "Type": "Decimal",
-            "Description": "Capacity of vehicle fuel tank in litres."
+            "Description": ""
           },
           "GrossCombinedWeight": {
             "Name": "TechnicalDetails.Dimensions.GrossCombinedWeight",
             "Type": "Decimal",
-            "Description": "Standard abbreviation: GCW. The total maximum weight of an articulated vehicle as driven, i.e. with semi-trailer, payload, driver and all fluids."
+            "Description": ""
           },
           "GrossTrainWeight": {
             "Name": "TechnicalDetails.Dimensions.GrossTrainWeight",
             "Type": "Decimal",
-            "Description": "Standard abbreviation: GTW. The total maximum weight of a rigid vehicle together with its loaded draw-bar trailer. (NOTE: Sometimes manufacturers use the term GCW for both rigid and articulated vehicles)."
+            "Description": ""
           },
           "GrossVehicleWeight": {
             "Name": "TechnicalDetails.Dimensions.GrossVehicleWeight",
             "Type": "Decimal",
-            "Description": "Standard abbreviation: GVW. The total maximum weight of a rigid vehicle as driven, i.e. with body, payload, driver and all fluids."
+            "Description": ""
           },
           "Height": {
             "Name": "TechnicalDetails.Dimensions.Height",
             "Type": "Decimal",
-            "Description": "The distance in millimetres from a horizontal line touching the highest point of the vehicle roof to the point of contact with the road surface."
+            "Description": ""
           },
           "KerbWeight": {
             "Name": "TechnicalDetails.Dimensions.KerbWeight",
             "Type": "Decimal",
-            "Description": "The weight of the complete vehicle and all equipment without payload or driver."
+            "Description": ""
           },
           "LoadLength": {
             "Name": "TechnicalDetails.Dimensions.LoadLength",
             "Type": "Decimal",
-            "Description": "Measured in millimetres at floor level from behind the driverâ€™s seat to the end of floor space."
+            "Description": ""
           },
           "NumberOfAxles": {
             "Name": "TechnicalDetails.Dimensions.NumberOfAxles",
             "Type": "Int32",
-            "Description": "Total number of Axles."
+            "Description": ""
           },
           "NumberOfDoors": {
             "Name": "TechnicalDetails.Dimensions.NumberOfDoors",
             "Type": "Int32",
-            "Description": "Number of doors the vehicle has."
+            "Description": ""
           },
           "NumberOfSeats": {
             "Name": "TechnicalDetails.Dimensions.NumberOfSeats",
             "Type": "Int32",
-            "Description": "Total number of seats to include driver as specified on the Certificate of Conformity."
+            "Description": ""
           },
           "PayloadVolume": {
             "Name": "TechnicalDetails.Dimensions.PayloadVolume",
             "Type": "Decimal",
-            "Description": "The cubic capacity of the load space for the vehicle measured in cubic metres. (This value is entered for factory built panel vans. For other body types and chassis cabs, the equivalent for the panel van version in the range may be entered)."
+            "Description": ""
           },
           "PayloadWeight": {
             "Name": "TechnicalDetails.Dimensions.PayloadWeight",
             "Type": "Decimal",
-            "Description": "The maximum weight of goods that can be carried on a specific vehicle, not to exceed limits set by the Construction & Use regulations."
+            "Description": ""
           },
           "RigidArtic": {
             "Name": "TechnicalDetails.Dimensions.RigidArtic",
             "Type": "String",
-            "Description": "Descriptive field that indicates if the vehicle has a permanent or semi permanent pivoting joint (Artic) or not (Rigid)."
+            "Description": ""
           },
           "UnladenWeight": {
             "Name": "TechnicalDetails.Dimensions.UnladenWeight",
             "Type": "Decimal",
-            "Description": "Standard abbreviation: ULW. The total weight of an unladen vehicle with body, less driver, ready for operation on the road."
+            "Description": ""
           },
           "WheelBase": {
             "Name": "TechnicalDetails.Dimensions.WheelBase",
             "Type": "Decimal",
-            "Description": "The distance in Millimeters between the front and rear axles."
+            "Description": ""
           },
           "Width": {
             "Name": "TechnicalDetails.Dimensions.Width",
             "Type": "Decimal",
-            "Description": "The distance in Millimetres between two vertical lines touching the opposite sides of the vehicle excluding the Wing Mirrors."
+            "Description": ""
           }
         },
         "General": {
           "DataVersionNumber": {
             "Name": "TechnicalDetails.General.DataVersionNumber",
             "Type": "Decimal",
-            "Description": "Version number for this data."
+            "Description": ""
           },
           "DriverPosition": {
             "Name": "TechnicalDetails.General.DriverPosition",
             "Type": "String",
-            "Description": "Driver side position within vehicle."
+            "Description": ""
           },
           "DrivingAxle": {
             "Name": "TechnicalDetails.General.DrivingAxle",
             "Type": "String",
-            "Description": "Location of powered axle/s."
+            "Description": ""
           },
           "ElectricVehicleBattery": {
             "Capacity": {
               "Name": "TechnicalDetails.General.ElectricVehicleBattery.Capacity",
               "Type": "String",
-              "Description": "Capacity of Electric Vehicle Battery used."
+              "Description": ""
             },
             "ChargePort": {
               "Name": "TechnicalDetails.General.ElectricVehicleBattery.ChargePort",
               "Type": "String",
-              "Description": "Type of charge port used to charge the Electric Vehicle Battery."
+              "Description": ""
             },
             "ChargeTime": {
               "Name": "TechnicalDetails.General.ElectricVehicleBattery.ChargeTime",
               "Type": "String",
-              "Description": "Time required to charge Electric Vehicle Battery."
+              "Description": ""
             },
             "Type": {
               "Name": "TechnicalDetails.General.ElectricVehicleBattery.Type",
               "Type": "String",
-              "Description": "Type of Electric Vehicle Battery used."
+              "Description": ""
             }
           },
           "Engine": {
             "Aspiration": {
               "Name": "TechnicalDetails.General.Engine.Aspiration",
               "Type": "String",
-              "Description": "The method by which the engine breathes. E.g. 'NATURALLY ASPIRATED', 'SUPERCHARGER', 'TURBO'."
+              "Description": ""
             },
             "Bore": {
               "Name": "TechnicalDetails.General.Engine.Bore",
               "Type": "Decimal",
-              "Description": "Internal Diameter of the Engine Cylinder in (mm)."
+              "Description": ""
             },
             "CylinderArrangement": {
               "Name": "TechnicalDetails.General.Engine.CylinderArrangement",
               "Type": "String",
-              "Description": "Physical Arrangement of the cylinders â€“ 'VEE' (The cylinders and pistons are aligned, in two separate planes or 'banks', so that they appear to be in a 'V' when viewed along the axis of the crankshaft) , 'INLINE' (Cylinders arranged in a single row side by side and parallel to one another)"
+              "Description": ""
             },
             "Description": {
               "Name": "TechnicalDetails.General.Engine.Description",
               "Type": "String",
-              "Description": "Manufacturer specific engine description."
+              "Description": ""
             },
             "FuelCatalyst": {
               "Name": "TechnicalDetails.General.Engine.FuelCatalyst",
               "Type": "String",
-              "Description": "Fuel catalyst."
+              "Description": ""
             },
             "FuelDelivery": {
               "Name": "TechnicalDetails.General.Engine.FuelDelivery",
               "Type": "String",
-              "Description": "Method of fuel delivery used."
+              "Description": ""
             },
             "FuelSystem": {
               "Name": "TechnicalDetails.General.Engine.FuelSystem",
               "Type": "String",
-              "Description": "Summary description of fuel system."
+              "Description": ""
             },
             "Location": {
               "Name": "TechnicalDetails.General.Engine.Location",
               "Type": "String",
-              "Description": "Location of the engine â€“ FRONT - A front-mounted engine describes the placement of an automobile engine in front of the vehicle passenger compartment. MIDDLE - A mid - engine layout describes the placement of an automobile engine between the rear and front axles). REAR - A rear - engine design layout places the engine at the rear of the vehicle.The center of gravity of the engine itself is past the rear axle."
+              "Description": ""
             },
             "Make": {
               "Name": "TechnicalDetails.General.Engine.Make",
               "Type": "String",
-              "Description": "Brand name of the engine manufacturer e.g. 'Peugeot', 'Honda'."
+              "Description": ""
             },
             "NumberOfCylinders": {
               "Name": "TechnicalDetails.General.Engine.NumberOfCylinders",
               "Type": "Int32",
-              "Description": "The number of cylinders in the engine."
+              "Description": ""
             },
             "PrimaryFuelFlag": {
               "Name": "TechnicalDetails.General.Engine.PrimaryFuelFlag",
               "Type": "String",
-              "Description": "'Y' flag indicates principal fuel in multifuel vehicle."
+              "Description": ""
             },
             "Stroke": {
               "Name": "TechnicalDetails.General.Engine.Stroke",
               "Type": "Decimal",
-              "Description": "Distance between Top dead centre and Bottom dead centre of piston travel (mm)."
+              "Description": ""
             },
             "ValveGear": {
               "Name": "TechnicalDetails.General.Engine.ValveGear",
               "Type": "String",
-              "Description": "The abbreviation of valve actuation mechanism type - 'SOHC' (Single OverHead Camshaft), 'DOHC' (Double OverHead Camshaft) or 'PUSHROD' (valves actuated by rocker arms actuated by 'pushrods') where known."
+              "Description": ""
             },
             "ValvesPerCylinder": {
               "Name": "TechnicalDetails.General.Engine.ValvesPerCylinder",
               "Type": "Int32",
-              "Description": "The number of valves per cylinder (four stroke engines have at least 2 poppet valves per cylinder)."
+              "Description": ""
             }
           },
           "EuroStatus": {
             "Name": "TechnicalDetails.General.EuroStatus",
             "Type": "String",
-            "Description": "The highest European engine standard which the engine meets (e.g. '3','4','5'). Recorded on V5C document."
+            "Description": ""
           },
           "IsLimitedEdition": {
             "Name": "TechnicalDetails.General.IsLimitedEdition",
             "Type": "Boolean",
-            "Description": "Indicates whether or not the vehicle is part of a limited edition."
+            "Description": ""
           },
           "PowerDelivery": {
             "Name": "TechnicalDetails.General.PowerDelivery",
             "Type": "String",
-            "Description": "Descriptive field to indicate Hybrid or non-hybrid powertrains (Normal)."
+            "Description": ""
           },
           "SeriesDescription": {
             "Name": "TechnicalDetails.General.SeriesDescription",
             "Type": "String",
-            "Description": "Vehicle series description."
+            "Description": ""
           },
           "TypeApprovalCategory": {
             "Name": "TechnicalDetails.General.TypeApprovalCategory",
             "Type": "String",
-            "Description": "European Vehicle Type - e.g  Passenger Car = 'M1',"
+            "Description": ""
           }
         },
         "Performance": {
@@ -463,88 +463,88 @@
             "Kph": {
               "Name": "TechnicalDetails.Performance.Acceleration.Kph",
               "Type": "Decimal",
-              "Description": "The time, in seconds, taken by the vehicle to accelerate from 0 to 100 Kilometres per hour."
+              "Description": "."
             },
             "Mph": {
               "Name": "TechnicalDetails.Performance.Acceleration.Mph",
               "Type": "Decimal",
-              "Description": "The time, in seconds, taken by the vehicle to accelerate from 0 to 60 Miles per Hour."
+              "Description": ""
             },
             "ZeroTo100Kph": {
               "Name": "TechnicalDetails.Performance.Acceleration.ZeroTo100Kph",
               "Type": "Decimal",
-              "Description": "The time, in seconds, taken by the vehicle to accelerate from 0 to 100 Kilometres per hour."
+              "Description": ""
             },
             "ZeroTo60Mph": {
               "Name": "TechnicalDetails.Performance.Acceleration.ZeroTo60Mph",
               "Type": "Decimal",
-              "Description": "The time, in seconds, taken by the vehicle to accelerate from 0 to 60 Miles per Hour."
+              "Description": ""
             }
           },
           "Co2": {
             "Name": "TechnicalDetails.Performance.Co2",
             "Type": "Decimal",
-            "Description": "Exhaust emission of carbon dioxide, measured as part of the type approval process, expressed in grams per kilometre."
+            "Description": ""
           },
           "DataVersionNumber": {
             "Name": "TechnicalDetails.Performance.DataVersionNumber",
             "Type": "Decimal",
-            "Description": "Version Number for this data."
+            "Description": ""
           },
           "MaxSpeed": {
             "Kph": {
               "Name": "TechnicalDetails.Performance.MaxSpeed.Kph",
               "Type": "Decimal",
-              "Description": "Maximum speed of the model variant as per the brochure in kilometres per hour."
+              "Description": ""
             },
             "Mph": {
               "Name": "TechnicalDetails.Performance.MaxSpeed.Mph",
               "Type": "Decimal",
-              "Description": "Maximum speed of the model variant as per the brochure in miles per hour."
+              "Description": ""
             }
           },
           "NoiseLevel": {
             "Name": "TechnicalDetails.Performance.NoiseLevel",
             "Type": "Decimal",
-            "Description": "Vehicle noise emissions level."
+            "Description": ""
           },
           "Particles": {
             "Name": "TechnicalDetails.Performance.Particles",
             "Type": "Decimal",
-            "Description": "Vehicle particulate emissions."
+            "Description": ""
           },
           "Power": {
             "Bhp": {
               "Name": "TechnicalDetails.Performance.Power.Bhp",
               "Type": "Decimal",
-              "Description": "Maximum power expressed in brake horse power."
+              "Description": ""
             },
             "Kw": {
               "Name": "TechnicalDetails.Performance.Power.Kw",
               "Type": "Decimal",
-              "Description": "Maximum power expressed in kilowatts."
+              "Description": ""
             },
             "Rpm": {
               "Name": "TechnicalDetails.Performance.Power.Rpm",
               "Type": "Decimal",
-              "Description": "Engine speed in revolutions per minute at which the maximum power occurs."
+              "Description": ""
             }
           },
           "Torque": {
             "FtLb": {
               "Name": "TechnicalDetails.Performance.Torque.FtLb",
               "Type": "Decimal",
-              "Description": "Maximum torque of the engine as reported by the manufacturer in foot pounds."
+              "Description": ""
             },
             "Nm": {
               "Name": "TechnicalDetails.Performance.Torque.Nm",
               "Type": "Decimal",
-              "Description": "Maximum torque of the engine as reported by the manufacturer in Newton Metres."
+              "Description": "."
             },
             "Rpm": {
               "Name": "TechnicalDetails.Performance.Torque.Rpm",
               "Type": "Decimal",
-              "Description": "Engine speed in revolutions per minute at which the maximum torque occurs."
+              "Description": ""
             }
           }
         },
@@ -574,7 +574,7 @@
           "IsElectricVehicle": {
             "Name": "UkvdEnhancedData.Identification.IsElectricVehicle",
             "Type": "Boolean",
-            "Description": "Indicates whether this is an electric vehicle."
+            "Description": ""
           }
         }
       },
@@ -590,12 +590,12 @@
         "KeeperChangesCount": {
           "Name": "VehicleHistory.KeeperChangesCount",
           "Type": "Int32",
-          "Description": "Number of records in the KeeperChangesList."
+          "Description": ""
         },
         "KeeperChangesList": {
           "Name": "VehicleHistory.KeeperChangesList",
           "Type": "List",
-          "Description": "List of keeper change records.",
+          "Description": "",
           "ListStructure": {
             "TypeName": "KeeperChangeDetails",
             "ItemInfo": [
@@ -620,17 +620,17 @@
         "NumberOfPreviousKeepers": {
           "Name": "VehicleHistory.NumberOfPreviousKeepers",
           "Type": "Int32",
-          "Description": "This is the number of previous keepers for this vehicle."
+          "Description": "."
         },
         "PlateChangeCount": {
           "Name": "VehicleHistory.PlateChangeCount",
           "Type": "Int32",
-          "Description": "Count of elements in the plate change list."
+          "Description": ""
         },
         "PlateChangeList": {
           "Name": "VehicleHistory.PlateChangeList",
           "Type": "List",
-          "Description": "List of plate change details.",
+          "Description": "",
           "ListStructure": {
             "TypeName": "PlateChangeDetails",
             "ItemInfo": [
@@ -665,12 +665,12 @@
         "V5CCertificateCount": {
           "Name": "VehicleHistory.V5CCertificateCount",
           "Type": "Int32",
-          "Description": "Count of entries in the V5C certificate list."
+          "Description": ""
         },
         "V5CCertificateList": {
           "Name": "VehicleHistory.V5CCertificateList",
           "Type": "List",
-          "Description": "List of V5C certificate details.",
+          "Description": "",
           "ListStructure": {
             "TypeName": "V5cCertificateDetails",
             "ItemInfo": [
@@ -685,12 +685,12 @@
         "VicCount": {
           "Name": "VehicleHistory.VicCount",
           "Type": "Int32",
-          "Description": "Count of entries in the Vehicle Id Check list."
+          "Description": ""
         },
         "VicList": {
           "Name": "VehicleHistory.VicList",
           "Type": "List",
-          "Description": "List of Vehicle Id Check details.",
+          "Description": "",
           "ListStructure": {
             "TypeName": "VicDetails",
             "ItemInfo": [
@@ -712,147 +712,147 @@
         "CertificateOfDestructionIssued": {
           "Name": "VehicleRegistration.CertificateOfDestructionIssued",
           "Type": "Boolean",
-          "Description": "This flag is set to True when a certificate of destruction has been issued for the vehicle."
+          "Description": ""
         },
         "Co2Emissions": {
           "Name": "VehicleRegistration.Co2Emissions",
           "Type": "Decimal",
-          "Description": "CO2 emissions figure for vehicle."
+          "Description": ""
         },
         "Colour": {
           "Name": "VehicleRegistration.Colour",
           "Type": "String",
-          "Description": "The current colour of the vehicle."
+          "Description": ""
         },
         "DateExported": {
           "Name": "VehicleRegistration.DateExported",
           "Type": "String",
-          "Description": "The date that the vehicle was exported.  Only present if the vehicle has been exported."
+          "Description": ""
         },
         "DateFirstRegistered": {
           "Name": "VehicleRegistration.DateFirstRegistered",
           "Type": "String",
-          "Description": "Date when the vehicle was first registered.  This may be the before the date the vehicle was first registered in the UK."
+          "Description": ""
         },
         "DateFirstRegisteredUk": {
           "Name": "VehicleRegistration.DateFirstRegisteredUk",
           "Type": "String",
-          "Description": "Date when the vehicle was first registered in the UK with the DVLA."
+          "Description": ""
         },
         "DateOfLastUpdate": {
           "Name": "VehicleRegistration.DateOfLastUpdate",
           "Type": "String",
-          "Description": "Date of the last update to the vehicle's core registration description details."
+          "Description": ""
         },
         "DateScrapped": {
           "Name": "VehicleRegistration.DateScrapped",
           "Type": "String",
-          "Description": "The date that the vehicle was scrapped.  Only present if the vehicle has been scrapped."
+          "Description": ""
         },
         "DoorPlan": {
           "Name": "VehicleRegistration.DoorPlan",
           "Type": "String",
-          "Description": "DVLA door plan code for this vehicle."
+          "Description": ""
         },
         "DoorPlanLiteral": {
           "Name": "VehicleRegistration.DoorPlanLiteral",
           "Type": "String",
-          "Description": "Door plan description for this vehicle."
+          "Description": ""
         },
         "EngineCapacity": {
           "Name": "VehicleRegistration.EngineCapacity",
           "Type": "String",
-          "Description": "The vehicle's registered engine capacity measured in c.c."
+          "Description": ""
         },
         "EngineNumber": {
           "Name": "VehicleRegistration.EngineNumber",
           "Type": "String",
-          "Description": "The vehicle's engine number."
+          "Description": ""
         },
         "Exported": {
           "Name": "VehicleRegistration.Exported",
           "Type": "Boolean",
-          "Description": "Boolean value indicating whether or not the vehicle has been exported."
+          "Description": ""
         },
         "FuelType": {
           "Name": "VehicleRegistration.FuelType",
           "Type": "String",
-          "Description": "Fuel type used by the vehicle."
+          "Description": ""
         },
         "GearCount": {
           "Name": "VehicleRegistration.GearCount",
           "Type": "Int32",
-          "Description": "Number of gears (forward driving gear ratios) in the vehicle's transmission."
+          "Description": ""
         },
         "GrossWeight": {
           "Name": "VehicleRegistration.GrossWeight",
           "Type": "Decimal",
-          "Description": "Vehicle gross weight.  For commercial vehicles only."
+          "Description": ""
         },
         "Imported": {
           "Name": "VehicleRegistration.Imported",
           "Type": "Boolean",
-          "Description": "Boolean value indicating whether or not the vehicle has been imported."
+          "Description": ""
         },
         "ImportNonEu": {
           "Name": "VehicleRegistration.ImportNonEu",
           "Type": "Boolean",
-          "Description": "Boolean value indicating whether or not the vehicle has been imported from outside the EU."
+          "Description": ""
         },
         "Make": {
           "Name": "VehicleRegistration.Make",
           "Type": "String",
-          "Description": "Vehicle make."
+          "Description": ""
         },
         "MakeModel": {
           "Name": "VehicleRegistration.MakeModel",
           "Type": "String",
-          "Description": "Vehicle make and model."
+          "Description": ""
         },
         "MaxPermissibleMass": {
           "Name": "VehicleRegistration.MaxPermissibleMass",
           "Type": "Decimal",
-          "Description": "Maximum permissible weight for the vehicle."
+          "Description": ""
         },
         "Model": {
           "Name": "VehicleRegistration.Model",
           "Type": "String",
-          "Description": "Vehicle model."
+          "Description": ""
         },
         "MvrisMakeCode": {
           "Name": "VehicleRegistration.MvrisMakeCode",
           "Type": "String",
-          "Description": "MVRIS (Motor Vehicle Registration Information System) make code for this vehicle."
+          "Description": ""
         },
         "MvrisModelCode": {
           "Name": "VehicleRegistration.MvrisModelCode",
           "Type": "String",
-          "Description": "MVRIS (Motor Vehicle Registration Information System) model code for this vehicle."
+          "Description": ""
         },
         "PreviousVrmGb": {
           "Name": "VehicleRegistration.PreviousVrmGb",
           "Type": "String",
-          "Description": "PreviousVrmGb is supplied by the DVLNI prior to 2009. It is the VRM that was on this vehicle prior to it being registered with the DVLNI, but only if the vehicle was registered with the DVLA immediately prior to being registered with the DVLA."
+          "Description": ""
         },
         "PreviousVrmNi": {
           "Name": "VehicleRegistration.PreviousVrmNi",
           "Type": "String",
-          "Description": "PreviousVrmNi is supplied by the DVLA prior to 2009.  It is the VRM that was on this vehicle prior to it being registered with the DVLA, but only if the vehicle was registered with the DVLNI immediately prior to being registered with the DVLA."
+          "Description": ""
         },
         "Scrapped": {
           "Name": "VehicleRegistration.Scrapped",
           "Type": "Boolean",
-          "Description": "Boolean value indicating whether or not the vehicle has been scrapped."
+          "Description": ""
         },
         "SeatingCapacity": {
           "Name": "VehicleRegistration.SeatingCapacity",
           "Type": "Int32",
-          "Description": "Seating capacity of the vehicle."
+          "Description": ""
         },
         "Transmission": {
           "Name": "VehicleRegistration.Transmission",
           "Type": "String",
-          "Description": "Description of transmission."
+          "Description": ""
         },
         "TransmissionCode": {
           "Name": "VehicleRegistration.TransmissionCode",
@@ -945,12 +945,12 @@
                 "SixMonth": {
                   "Name": "VehicleStatus.MotVed.VedRate.PremiumVehicle.YearTwoToSix.SixMonth",
                   "Type": "Decimal",
-                  "Description": "Six month VED rate for the second to sixth years after a new vehicle with Â£40,000 or greater list price (including options) is registered."
+                  "Description": ""
                 },
                 "TwelveMonth": {
                   "Name": "VehicleStatus.MotVed.VedRate.PremiumVehicle.YearTwoToSix.TwelveMonth",
                   "Type": "Decimal",
-                  "Description": "Twelve month VED rate for the second to sixth years after a new vehicle with Â£40,000 or greater list price (including options) is registered."
+                  "Description": ""
                 }
               }
             },
@@ -958,12 +958,12 @@
               "SixMonth": {
                 "Name": "VehicleStatus.MotVed.VedRate.Standard.SixMonth",
                 "Type": "Decimal",
-                "Description": "Standard six month VED rate.  Standard rate applies when no special rate, such as the 'first year' rate takes precidence."
+                "Description": ""
               },
               "TwelveMonth": {
                 "Name": "VehicleStatus.MotVed.VedRate.Standard.TwelveMonth",
                 "Type": "Decimal",
-                "Description": "Standard twelve month VED rate.  Standard rate applies when no special rate, such as the 'first year' rate takes precidence."
+                "Description": ""
               }
             }
           }
