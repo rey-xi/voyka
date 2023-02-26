@@ -1,4 +1,4 @@
-import {VoykaModel} from "./voyka_model";
+import {VoykaModel} from "./models/voyka";
 
 class Voyka {
   //...
@@ -32,4 +32,4 @@ function voykaOf(model: object): VoykaModel {
 
 //...Run
 new Voyka('44c65e9e-63b5-45dc-bd33-1b3d0a128e31')
-  .getVehicleData('KM14AKK').then(value => console.log(value))
+  .getVehicleData('KM14AKK').then(value => console.log(value.toJson()))

@@ -1,5 +1,10 @@
+import {KeeperChangeDetails} from "./kcd";
+import {PlateChangeDetails} from "./pcd";
+import {V5cCertificateDetails} from "./v5cd";
+import {VicDetails} from "./vic";
+
 //...
-export type VoykaModel = {
+export interface VoykaModel {
   ClassificationDetails: {
     Dvla: {
       // Vehicle make as defined by DVLA.
@@ -543,38 +548,6 @@ export type VoykaModel = {
       }
     }
   }
-}
 
-type KeeperChangeDetails = {
-  // Date of last keeper change.
-  DateOfLastKeeperChange: string
-  // Date of transaction.
-  DateOfTransaction: string
-  // Number of previous keepers.
-  NumberOfPreviousKeepers: number
-}
-
-type PlateChangeDetails = {
-  // Current VRM
-  CurrentVRM: string
-  // Date of receipt for the transfer.
-  DateOfReceipt: string
-  // Date of transaction.
-  DateOfTransaction: string
-  // Previous VRM.
-  PreviousVRM: string
-  // Type of transfer.
-  TransferType: string
-}
-
-type V5cCertificateDetails = {
-  // Date for this certificate.
-  CertificateDate: string
-}
-
-type VicDetails = {
-  // Date of VIC test.
-  VICDate: string
-  // Result of the VIC test.  Value will be 'PASS' or 'FAIL'.
-  VICResult: string
+  toJson();
 }
