@@ -578,8 +578,3 @@ type VicDetails = {
   // Result of the VIC test.  Value will be 'PASS' or 'FAIL'.
   VICResult: string
 }
-
-export function voykaOf(model: object): VoykaModel {
-  //...
-  return model['Response']['DataItems'] as VoykaModel
-}
