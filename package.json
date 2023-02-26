@@ -2,7 +2,7 @@
   "name": "voyka",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/voyka.ts",
+  "main": "src/voyka.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
