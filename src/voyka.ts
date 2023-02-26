@@ -31,5 +31,6 @@ function voykaOf(model: object): VoykaModel {
 
 
 //...Run
-new Voyka('44c65e9e-63b5-45dc-bd33-1b3d0a128e31')
-  .getVehicleData('KM14AKK').then(value => console.log(value.toJson()))
+const voyka = new Voyka('44c65e9e-63b5-45dc-bd33-1b3d0a128e31')
+const vehicleData = voyka.getVehicleData('KM14AKK')
+vehicleData.then(value => console.log(value.toJson()))
