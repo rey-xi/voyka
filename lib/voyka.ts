@@ -1,4 +1,4 @@
-import {VoykaModel} from "./voyka_model";
+import {VoykaModel, voykaOf} from "./voyka_model";
 
 class Voyka {
   //...
@@ -20,7 +20,7 @@ class Voyka {
     //...
     return fetch(host + req + auth + queries, opt)
       .then(response => response.json() as object)
-      .then(value => value['Response']);
+      .then(value => voykaOf(value));
   }
 }
 
